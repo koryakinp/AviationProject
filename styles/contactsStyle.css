@@ -1,0 +1,30 @@
+input[type=text], select, textarea{
+    width:300px;
+    
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    box-sizing:content-box;
+    -webkit-box-sizing:content-box; 
+}
+
+#contact {
+    padding: 20px;
+}
+
+textarea {
+    resize:none;
+}
+
+#mappp {
+    float:right;
+}
+
+#contact table {
+    width:100%;
+}
+
+#map {
+   height: 400px; 
+   width: 400px; 
+   border: 1px solid black;
+}

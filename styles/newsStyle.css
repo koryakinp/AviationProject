@@ -1,0 +1,42 @@
+.news {
+    padding: 5px;
+    margin:10px;
+    border: 2px solid gray;
+}
+
+.newsHeader{
+    font-size: 22px;
+    color:black;
+    font-weight: bolder;
+}
+
+.title {
+    color: darkblue;
+}
+
+.newsDate {
+    float:right;
+    font-size: 15px;
+}
+
+.newsHeaderAuthor {
+    font-size: 14px;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.newsAuthor {
+    font-weight: bold;
+}
+
+.newsAuthor:hover {
+    font-weight: bold;
+    color:darkgray;
+}
+
+#rss_aviation{
+    float:right;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+

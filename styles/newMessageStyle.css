@@ -1,0 +1,55 @@
+textarea {
+    resize: none;
+}
+
+#topic {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #DAFFFD;
+    box-shadow: 0 0 7px;
+    overflow:hidden;
+}
+
+#content {
+    background-image: url(../images/newTopicBackground.jpg);
+}
+
+#topicWrapper {
+    width:1050px;
+    margin:0 auto;
+    padding-bottom: 50px;
+}
+
+#topicTitle {
+    padding-bottom:10px;
+    width: 100%;
+    font-weight: bold;
+}
+
+#buttons {
+    padding-top:10px;
+}
+
+#topicWrapper > h1 {
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.mce-resizehandle {
+    display:none;
+}
+
+.mce-path {
+    display: none;
+}
+
+#topicTitle input {
+    width:700px;
+}
+
+button.button:nth-child(2), button.button:nth-child(1) {
+    float:right;
+    margin-left: 10px;
+}

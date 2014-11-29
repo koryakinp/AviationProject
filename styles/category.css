@@ -1,0 +1,59 @@
+.tableContentRow {
+    height: 60px;
+    border-bottom: 1px solid lightgrey;
+}
+
+tr.tableContentRow > td:nth-child(2), tr.tableContentRow > td:nth-child(3), tr.tableContentRow > td:nth-child(4) {
+    text-align: center;
+}
+
+tr.tableContentRow > td:nth-child(1) {
+    padding: 10px;
+}
+
+tr.tableContentRow > td:nth-child(1) a {
+    text-decoration: none;
+}
+
+.topicPages {
+    float:right;
+}
+
+.tableFooterRow > .pagination {
+    float: right;
+    line-height:50px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.forum td:nth-child(1){
+   width:600px;
+}
+
+.button:hover {
+    text-shadow: none;
+}
+
+.tableFooterRow .pagination {
+    line-height: 50px;
+    padding-left: 15px;
+}
+
+.tableFooterRow .pagination a {
+    color: white;
+    padding-left: 2px;
+}
+
+.tableContentRow .pagination {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.tableContentRow .pagination a {
+    padding-right: 2px;
+}
+
+.tableFooterRow a.button {
+    margin-right: 10px;
+    float:right;
+}

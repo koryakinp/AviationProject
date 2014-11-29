@@ -1,0 +1,69 @@
+#profile {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #DAFFFD;
+    box-shadow: 0 0 7px;
+    overflow:hidden;
+}
+
+#content {
+    background-image: url(../images/newTopicBackground.jpg);
+}
+
+#profileWrapper {
+    width:1050px;
+    margin:0 auto;
+    padding-bottom: 50px;
+}
+
+#profileWrapper > h1 {
+    padding: 5px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+#userInfo img {
+    border: 1px solid;
+}
+
+#userInfo td:nth-child(1) {
+    padding-right: 10px;
+    
+}
+
+.state {
+    font-weight: bold;
+}
+
+.online {
+    color:green;
+}
+
+.offline {
+    color:black;
+}
+
+.user {
+    color:green;
+}
+
+.admin {
+    color:darkred;
+}
+
+.userRole {
+    font-weight: bold;
+}
+
+#messageCounter {
+    font-weight: bold;
+}
+
+.button {
+    float:right;
+}

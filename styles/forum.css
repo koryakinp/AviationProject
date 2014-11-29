@@ -1,0 +1,21 @@
+tr.tableContentRow > td:nth-child(2), tr.tableContentRow > td:nth-child(3), tr.tableContentRow > td:nth-child(4) {
+    text-align: center;
+}
+
+tr.tableContentRow > td:nth-child(1) {
+    padding: 10px;
+    
+}
+
+.tableContentRow > td > h3 {
+    text-transform: uppercase;
+}
+
+.tableContentRow > td > p {
+    padding-top: 5px;
+}
+
+.tableFooterRow p {
+    float:right;
+    padding-right: 10px;
+}

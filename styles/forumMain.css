@@ -1,0 +1,34 @@
+.forum {
+    border-collapse: collapse;
+    width:100%;
+}
+
+.tableHeaderRow {
+   color: white;
+   height: 50px;
+   text-transform: uppercase;
+   background-image: url(../images/forumHeader.jpg);
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+}
+
+.tableContentRow:nth-child(even){
+    background-color: #EEFFFF;
+}
+
+.tableContentRow:nth-child(odd){
+    background-color: #E1FFFF;
+}
+
+.tableContentRow:hover{
+    background-color: #C0FDFF;
+}
+
+.tableFooterRow {
+   color: white;
+   height: 50px;
+   text-transform: uppercase;
+   background-image: url(../images/forumFooter.jpg);
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+}

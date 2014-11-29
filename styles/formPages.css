@@ -1,0 +1,17 @@
+#content {
+    padding:30px;
+    background-color: #EEFFFF;
+}
+
+fieldset{
+    padding: 10px;
+}
+
+.buttons {
+    float:right;
+    padding-top:20px;
+}
+
+.error {
+    color:red;
+}

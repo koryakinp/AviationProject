@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<database>
+		<host>50.62.209.81:3306</host>
+		<dbname>its5311</dbname>
+		<username>koryakinp</username>
+		<password>hYfv15!4</password>
+		<db>mysql</db>
+	</database>
+	<email>
+		<address>aviaforum2014@gmail.com</address>
+		<password>aviaadmin</password>
+	</email>
+        <messageEmail>
+            <email>blik_ds@mail.ru</email>
+        </messageEmail>
+        <appName>latest2</appName>
+</config>

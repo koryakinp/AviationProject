@@ -1,0 +1,128 @@
+.messageBody{
+    height: 300px;
+    border-top: 1px solid lightblue;
+    border-bottom: 1px solid lightblue;
+}
+
+.message {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.message td {
+    padding: 10px; 
+}
+
+.message td:nth-child(1){
+    width: 150px;
+    border-right: 1px solid lightblue;
+    background-color: #F6F3EE;
+}
+
+.tableHeaderRow {
+    padding-left: 20px;
+}
+
+.tableContentRow:nth-child(even):hover{
+    background-color: #EEFFFF;
+}
+
+.tableContentRow:nth-child(odd):hover{
+    background-color: #E1FFFF;
+}
+
+.tableContentRow{
+    border-top: 10px solid grey;
+}
+
+.first {
+    border-top: none;
+}
+
+.messageBody td {
+    vertical-align: top;
+}
+
+.message img {
+    border: 1px solid grey;
+}
+
+.userMessageCounter span {
+    font-weight: bold;
+}
+
+.user {
+    color:green;
+}
+
+.admin {
+    color:darkred;
+}
+
+.userRole {
+    font-weight: bold;
+}
+
+.messageFooter a.button:nth-child(2), .messageFooter a.button:nth-child(3)  {
+    float:right;
+    margin-left:10px;
+}
+
+.messageHeader td:nth-child(1) {
+    font-weight: bold;
+}
+
+.messageDate {
+    display: block;
+    float: right;
+}
+
+.tableFooterRow a.button {
+    margin-right: 10px;
+    float:right;
+}
+
+.tableFooterRow .pagination {
+    line-height: 50px;
+    padding-left: 15px;
+}
+
+.tableFooterRow .pagination a {
+    color: white;
+    padding-left: 2px;
+}
+
+.tableHeaderRow p {
+    text-align: left;
+    padding-left: 20px;
+}
+
+#moderatorPanel > td {
+    padding: 10px;
+    background-color: lightpink;
+    border-bottom: 10px solid grey;
+}
+
+#moderatorPanel label {
+    padding-left: 5px;
+}
+
+fieldset {
+    padding:10px;
+}
+
+fieldset button {
+    float:right;
+}
+
+blockquote {
+    background-color:#f4f4f4;
+    border-top: 2px solid #99A;
+    border-bottom: 2px solid #99A;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-right: 20px;
+}

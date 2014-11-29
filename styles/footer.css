@@ -1,0 +1,35 @@
+.footer {
+    background-color: #444;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#copyright {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.footlinks ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.footlinks li {
+  font-size: 1.2em;
+  line-height: 40px;
+  width: 60px;
+  height: 40px;
+  display: inline-block;
+  margin-right: -4px;
+  text-transform: uppercase;
+}
